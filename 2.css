@@ -1,0 +1,187 @@
+*{
+    margin : 0px;
+    padding : 0px;
+
+    font-family: sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.15)), url(https://www.trawell.in/admin/images/upload/398397914Mysore_Main.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 75px;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftmenu{
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(252, 252, 10);
+
+}
+
+
+.rightmenu{
+    width: 70%;
+    padding: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+    word-spacing: 100px;
+
+}
+
+nav .rightmenu a {
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+  }
+
+ .rightmenu a:hover{
+    color: #00b894;
+}
+
+.rightmenu a:first-child{
+    color: #00b894;
+}
+
+
+main{
+    text-align: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+section h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-shadow: 5px 4px 8px black;
+    color: aliceblue;
+    
+}
+
+section h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-shadow: 5px 4px 8px black;
+    color: aliceblue;
+    
+}
+
+section p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    text-shadow: 5px 4px 8px black;
+    color: rgb(181, 213, 241);
+    margin-bottom: 25px;
+    
+}
+
+section a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+section .b1{
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px 30px;
+}
+
+section .b1:hover{
+    background-color: rgb(73, 241, 196);
+    color: white;
+}
+
+section .b2{
+    background-color: rgb(0, 193, 141);
+    color: rgb(12, 1, 1);
+
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px 30px;
+}
+
+section .b2:hover{
+    background-color: white;
+    color: black;
+}
+
+.foot{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+
+}   
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    color: greenyellow;
+}
+
+.change_content:after{
+    content: "";
+    animation: changeContent 5s infinite linear;
+    color: #00b894;
+}
+
+@keyframes changeContent{
+    0%{
+        content: "J & K";
+    }
+    20%{
+        content: "Delhi";
+    }
+    40%{
+        content: "Agra";
+    }
+    60%{
+        content: "Mumbai";
+    }
+    80%{
+        content: "Karnataka";
+    }
+    100%{
+        content: "Kerala";
+    }
+}
